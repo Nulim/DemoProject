@@ -80,6 +80,7 @@ public class JiraApiTesting {
                 .when().get("/rest/api/2/issue/{id}")
                 .then().assertThat().statusCode(200).extract().response().asString();
 
+        //commit comment
         System.out.println(getResponse);*/
     }
 
